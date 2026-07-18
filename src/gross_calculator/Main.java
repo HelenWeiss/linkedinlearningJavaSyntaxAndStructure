@@ -58,5 +58,20 @@ public class Main {
         System.out.println(gradeD);
 */
 
+        // Practice: class GradeMessage
+
+        // Option 1 to call class GradeMessage
+        GradeMessage.main(args);
+
+        // Option 2 to call class GradeMessage
+        GradeMessage messageGradeA = new GradeMessage();
+        String messageA = messageGradeA.gradeMessage("A");
+        System.out.println(messageA);
+
+        GradeMessage messageGradeF = new GradeMessage();
+        String messageF = messageGradeF.gradeMessage("F");
+        System.out.println(messageF);
+
+
     }
 }
