@@ -129,6 +129,21 @@ public class Main {
         //LetterSearch.main(args);
 
         // Practice: RollTheDieGame (for loop)
-        String resultGame = RollTheDieGame.playGame();
+        //String resultGame = RollTheDieGame.playGame();
+
+        // Practice: InstantCreditCheck (methods)
+        // with commented method public static void isUserQualified(int creditScore, double salary){...}
+        //InstantCreditCheck.isUserQualified(800, 56000);
+
+        // Practice: InstantCreditCheck (methods)
+
+        boolean qualifiedA = InstantCreditCheck.isUserQualified(700, 25000);
+        InstantCreditCheck.notifyUser(qualifiedA);
+
+        boolean qualifiedB = InstantCreditCheck.isUserQualified(699, 24999);
+        InstantCreditCheck.notifyUser(qualifiedB);
+
+        boolean qualifiedC = InstantCreditCheck.isUserQualified(800, 56000);
+        InstantCreditCheck.notifyUser(qualifiedC);
     }
 }
