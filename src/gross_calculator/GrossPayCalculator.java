@@ -4,37 +4,37 @@ import java.util.Scanner;
 
 public class GrossPayCalculator {
 
+    // Practice: class GrossPayCalculator; with Scanner, scanner.nextInt, scanner.close()
+
     static String message = "default message";
 
     public static void main (String[] args) {
 
-        // Practice: class GrossPayCalculator;
-
-        // 1. Get the number of hours worked
+        //  Get the number of hours worked the hourly pay rate
         int hours = 0;
         System.out.println("How many hours did you work?");
-
         Scanner scanner = new Scanner(System.in);
         hours = scanner.nextInt();
 
-        // 2. Get the hourly pay rate
         double payRate = 0;
         System.out.println("What is your pay rate?");
-
         payRate = scanner.nextDouble();
+
         scanner.close();
 
-        // 3. Multiply hours and pay rate
+        //Multiply hours and pay rate
         double grossPay = hours * payRate;
 
         // 4. Display result
         System.out.println("Gross pay: " + grossPay);
 
-        // Practice: class Blank;
-/*
-        Blank.fillInTheBlank("winter", 4, "cold");
-        Blank.fillInTheBlank("summer", 0, "rainy");
- */
+    }
 
+    // Practice: class GrossPayCalculator; my vision without Scanner
+    public static double calculateSalary(int hours, double grossPay) {
+        return hours * grossPay;
     }
 }
+
+
+
