@@ -136,7 +136,7 @@ public class Main {
         //InstantCreditCheck.isUserQualified(800, 56000);
 
         // Practice: InstantCreditCheck (methods)
-
+/*
         boolean qualifiedA = InstantCreditCheck.isUserQualified(700, 25000);
         InstantCreditCheck.notifyUser(qualifiedA);
 
@@ -145,5 +145,22 @@ public class Main {
 
         boolean qualifiedC = InstantCreditCheck.isUserQualified(800, 56000);
         InstantCreditCheck.notifyUser(qualifiedC);
+ */
+
+        // Practice: CalculateNumbers (methods)
+
+        // Option 1 to call class and method
+        int firstNumber = 40;
+        int secondNumber = 5;
+        double result = CalculateNumbers.calculateNumbers(firstNumber, secondNumber);
+        System.out.println(result);
+
+        // Option 2 to call class and method
+        double resultA = CalculateNumbers.calculateNumbers(40, 5);
+        System.out.println(resultA);
+
+        double resultB = CalculateNumbers.calculateNumbers(-10, 20);
+        System.out.println(resultB);
+
     }
 }
