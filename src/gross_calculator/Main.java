@@ -120,6 +120,9 @@ public class Main {
         //AddNumbers.main(args);
 
         // Practice: Cashier (for loop)
-        Cashier.main(args);
+        //Cashier.main(args);
+
+        // Practice: AverageTestScores (nested for loops: loops inside of a loop)
+        AverageTestScores.main(args);
     }
 }
