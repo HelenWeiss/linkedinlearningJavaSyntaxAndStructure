@@ -123,6 +123,9 @@ public class Main {
         //Cashier.main(args);
 
         // Practice: AverageTestScores (nested for loops: loops inside of a loop)
-        AverageTestScores.main(args);
+        //AverageTestScores.main(args);
+
+        // Practice: LetterSearch (for loop, break statement)
+        LetterSearch.main(args);
     }
 }
