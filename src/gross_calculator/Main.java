@@ -59,7 +59,7 @@ public class Main {
 */
 
         // Practice: class GradeMessage
-
+/*
         // Option 1 to call class GradeMessage
         GradeMessage.main(args);
 
@@ -71,7 +71,20 @@ public class Main {
         GradeMessage messageGradeF = new GradeMessage();
         String messageF = messageGradeF.gradeMessage("F");
         System.out.println(messageF);
+*/
 
+        // Practice: class DollarGame
+
+        //You can edit this code to try different testing cases.
+        int numOfPennies = 10;
+        int numOfNickels = 3;
+        int numOfDimes = 5;
+        int numOfQuarters = 1;
+        boolean resultA = DollarGame.isADollar(numOfPennies, numOfNickels, numOfDimes, numOfQuarters);
+        System.out.println(resultA);
+
+        boolean resultB = DollarGame.isADollar(0, 8, 2, 2);
+        System.out.println(resultB);
 
     }
 }
