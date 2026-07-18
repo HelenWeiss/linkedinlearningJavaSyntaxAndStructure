@@ -86,8 +86,9 @@ public class Main {
         boolean resultB = DollarGame.isADollar(0, 8, 2, 2);
         System.out.println(resultB);
 */
-        // Practice: class GrossPayInputValidator
 
+        // Practice: class GrossPayInputValidator
+/*
         // Option 1 to call class GrossPayInputValidator
         GrossPayInputValidator.main(args);
 
@@ -113,7 +114,10 @@ public class Main {
         GrossPayInputValidator validateGrossPayInputE = new GrossPayInputValidator();
         int validationE = validateGrossPayInputE.validateGrossPayInput(32, 40, 1);
         System.out.println(validationE);
+*/
 
+        // Practice: class AddNumbers
+        AddNumbers.main(args);
 
     }
 }
