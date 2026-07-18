@@ -87,7 +87,7 @@ public class Main {
         System.out.println(resultB);
 */
 
-        // Practice: class GrossPayInputValidator
+        // Practice: class GrossPayInputValidator (while loop)
 /*
         // Option 1 to call class GrossPayInputValidator
         GrossPayInputValidator.main(args);
@@ -116,8 +116,10 @@ public class Main {
         System.out.println(validationE);
 */
 
-        // Practice: class AddNumbers
-        AddNumbers.main(args);
+        // Practice: class AddNumbers  (do while loop)
+        //AddNumbers.main(args);
 
+        // Practice: Cashier (for loop)
+        Cashier.main(args);
     }
 }
