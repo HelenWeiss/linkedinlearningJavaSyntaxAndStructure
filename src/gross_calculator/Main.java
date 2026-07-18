@@ -74,7 +74,7 @@ public class Main {
 */
 
         // Practice: class DollarGame
-
+/*
         //You can edit this code to try different testing cases.
         int numOfPennies = 10;
         int numOfNickels = 3;
@@ -85,6 +85,35 @@ public class Main {
 
         boolean resultB = DollarGame.isADollar(0, 8, 2, 2);
         System.out.println(resultB);
+*/
+        // Practice: class GrossPayInputValidator
+
+        // Option 1 to call class GrossPayInputValidator
+        GrossPayInputValidator.main(args);
+
+        // Option 2 to call class GrossPayInputValidator
+        // if the Method without KeyWord static: public int validateGrossPayInput(int payRate, int maxHours, int hoursWorked)
+
+        GrossPayInputValidator validateGrossPayInputA = new GrossPayInputValidator();
+        int validationA = validateGrossPayInputA.validateGrossPayInput(32, 40, 39);
+        System.out.println(validationA);
+
+        GrossPayInputValidator validateGrossPayInputB = new GrossPayInputValidator();
+        int validationB = validateGrossPayInputB.validateGrossPayInput(32, 40, 40);
+        System.out.println(validationB);
+
+        GrossPayInputValidator validateGrossPayInputC = new GrossPayInputValidator();
+        int validationC = validateGrossPayInputC.validateGrossPayInput(32, 40, 41);
+        System.out.println(validationC);
+
+        GrossPayInputValidator validateGrossPayInputD = new GrossPayInputValidator();
+        int validationD = validateGrossPayInputD.validateGrossPayInput(32, 40, 0);
+        System.out.println(validationD);
+
+        GrossPayInputValidator validateGrossPayInputE = new GrossPayInputValidator();
+        int validationE = validateGrossPayInputE.validateGrossPayInput(32, 40, 1);
+        System.out.println(validationE);
+
 
     }
 }
