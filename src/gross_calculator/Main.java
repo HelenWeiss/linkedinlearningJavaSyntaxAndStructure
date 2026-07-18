@@ -126,6 +126,9 @@ public class Main {
         //AverageTestScores.main(args);
 
         // Practice: LetterSearch (for loop, break statement)
-        LetterSearch.main(args);
+        //LetterSearch.main(args);
+
+        // Practice: RollTheDieGame (for loop)
+        String resultGame = RollTheDieGame.playGame();
     }
 }
